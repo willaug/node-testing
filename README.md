@@ -2,7 +2,7 @@
 Testing in NodeJS using TDD and BDD concepts and some frameworks.
 
 ## About
-A system of cars management, where can find some cars, categories of cars and prices. This is a learning project and is based in Erick Wendel's course **JavaScript Expert**.
+A system of renting cars, where can find some cars, categories of cars and prices. This is a learning project and is based in Erick Wendel's course **JavaScript Expert**.
 
 <!-- ## About BDD and TDD -->
 
