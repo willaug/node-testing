@@ -6,8 +6,14 @@ A system of renting cars, where can find some cars, categories of cars and price
 
 <!-- ## About BDD and TDD -->
 
-## Testing steps
+## User story
 **Case 01**
-  - [x] Choose a random car from chosen category
-  - [x] Check if there's a car available
-  - [x] Get cars from chosen category
+As a system user.
+He can get cars by categoryId or find one random car by categoryId.
+He can also find available random car.
+
+**Case 02**
+As a system user.
+He can get formatted renting price for five days.
+He's 23y old and system has a tax price for age.
+

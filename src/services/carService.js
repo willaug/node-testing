@@ -1,4 +1,5 @@
 const Database = require('../base/database');
+const Tax = require('../entities/tax');
 
 class CarService {
   constructor({ cars }) {
@@ -24,6 +25,28 @@ class CarService {
       columnName: 'categoryId',
       columnValue: categoryId,
     });
+  }
+
+  rent({ customer, carCategory, numberOfDays }) {
+    const { age } = customer;
+    const { price } = carCategory;
+    const { tax } = new Tax().taxesBasedOnAge(age);
+
+    const subtotal = Number(price) * numberOfDays;
+    const calculatedTax = (subtotal * tax) / 100;
+    const total = calculatedTax + subtotal;
+
+    const formattedTotal = new Intl.NumberFormat('en-US', {
+      style: 'currency',
+      currency: 'USD',
+    }).format(total);
+
+    return {
+      total,
+      subtotal,
+      calculatedTax,
+      formattedTotal,
+    };
   }
 }
 

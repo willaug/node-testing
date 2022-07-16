@@ -42,4 +42,23 @@ describe('CarService Suite Tests', () => {
     expect(searchedCars).to.be.an('array');
     expect(mocks.cars).to.deep.eq(searchedCars);
   });
+
+  it('Given a category, customer and days it should calc the final amount', () => {
+    const { customer, carCategory } = mocks;
+    const numberOfDays = 5;
+    const expected = {
+      total: 3761.75,
+      subtotal: 3670,
+      calculatedTax: 91.75,
+      formattedTotal: '$3,761.75',
+    };
+
+    const rent = carService.rent({
+      customer,
+      carCategory,
+      numberOfDays,
+    });
+
+    expect(rent).to.deep.eq(expected);
+  });
 });
