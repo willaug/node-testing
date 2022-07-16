@@ -17,3 +17,9 @@ As a system user.
 He can get formatted renting price for five days.
 He's 23y old and system has a tax price for age.
 
+**Case 03**
+As a system user.
+In order to register a renting transaction.
+Following the same idea as case two, verify if delivery date that is for five days behind.
+And print delivery date.
+
