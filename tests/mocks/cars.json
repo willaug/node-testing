@@ -1,0 +1,20 @@
+[
+  {
+    "id": "be136669-9e25-4106-bc3d-5bd13fdb5d1a",
+    "name": "CX-9",
+    "createdAt": "2022-07-14T10:19:41.752Z",
+    "gasAvailable": true,
+    "releaseYear": 2021,
+    "categoryId": "d93dc868-b570-4773-9ec7-0e718370b7bd",
+    "available": false
+  },
+  {
+    "id": "e2fd31da-e436-4f76-99e4-ee91a579400e",
+    "name": "Countach",
+    "createdAt": "2022-07-16T07:19:29.664Z",
+    "gasAvailable": true,
+    "releaseYear": 2022,
+    "categoryId": "d93dc868-b570-4773-9ec7-0e718370b7bd",
+    "available": true
+  }
+]

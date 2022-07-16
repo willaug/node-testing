@@ -8,7 +8,6 @@ A system of renting cars, where can find some cars, categories of cars and price
 
 ## Testing steps
 **Case 01**
-  - [ ] Get an available car in specific category
-  - [ ] Get a car category containing three different cars
-  - [ ] Check if there's a car available
-  - [ ] Choose random car from chosen category
+  - [x] Choose a random car from chosen category
+  - [x] Check if there's a car available
+  - [x] Get cars from chosen category

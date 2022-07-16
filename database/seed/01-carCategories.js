@@ -1,5 +1,5 @@
 const { faker } = require('@faker-js/faker');
-const CarCategory = require('../../src/entities/car-category');
+const CarCategory = require('../../src/entities/carCategory');
 
 module.exports = new CarCategory({
   id: faker.datatype.uuid(),

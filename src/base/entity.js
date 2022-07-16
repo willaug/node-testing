@@ -1,4 +1,4 @@
-class Base {
+class Entity {
   constructor({ id, name, createdAt }) {
     this.id = id;
     this.name = name;
@@ -6,4 +6,4 @@ class Base {
   }
 }
 
-module.exports = Base;
+module.exports = Entity;

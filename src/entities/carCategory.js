@@ -1,6 +1,6 @@
-const Base = require('./base');
+const Entity = require('../base/entity');
 
-class CarCategory extends Base {
+class CarCategory extends Entity {
   constructor({
     id,
     name,
